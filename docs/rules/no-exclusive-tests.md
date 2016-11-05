@@ -19,14 +19,12 @@ describeOnly.apply(describe);
 The following patterns are considered warnings:
 
 ```js
-// bdd
 describe.only("foo", function () {});
 it.only("foo", function () {});
 describe["only"]("bar", function () {});
 it["only"]("bar", function () {});
 test.only("foo", function () {});
 test["only"]("bar", function () {});
-
 fdescribe("foo", function () {});
 fit("foo", function () {});
 ftest("bar", function () {});
