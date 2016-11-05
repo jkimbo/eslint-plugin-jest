@@ -10,14 +10,16 @@
   "author": "Jonathan Kim",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha tests --recursive"
+    "test": "jest"
   },
   "dependencies": {
-    "requireindex": "~1.1.0"
+    "requireindex": "^1.1.0"
   },
   "devDependencies": {
-    "eslint": "~2.6.0",
-    "mocha": "^2.4.5"
+    "eslint": "^3.9.0",
+    "eslint-config-airbnb-base": "^9.0.0",
+    "eslint-plugin-import": "^2.1.0",
+    "jest": "^16.0.2"
   },
   "engines": {
     "node": ">=0.10.0"

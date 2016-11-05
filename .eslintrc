@@ -1,0 +1,26 @@
+{
+  "env": {
+    "node": true
+  },
+
+  "parserOptions": {
+    ecmaVersion: 2016,
+    sourceType: 'commonjs',
+  },
+
+  "extends": "airbnb-base",
+
+  "rules": {
+    "func-names": 0,
+    "no-var": 0,
+    "space-before-function-paren": 0,
+    "object-shorthand": 0,
+    "comma-dangle": 0,
+    "prefer-template": 0,
+
+    "import/no-extraneous-dependencies": ["error", {
+      devDependencies: true,
+      optionalDependencies: false,
+    }],
+  }
+}
