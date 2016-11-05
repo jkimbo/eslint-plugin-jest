@@ -4,19 +4,11 @@ Eslint plugin for Jest
 
 ## Installation
 
-You'll first need to install [ESLint](http://eslint.org):
-
 ```
-$ npm i eslint --save-dev
+$ yarn install eslint eslint-plugin-jest --dev
 ```
 
-Next, install `eslint-plugin-jest`:
-
-```
-$ npm install eslint-plugin-jest --save-dev
-```
-
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-jest` globally.
+**Note:** If you installed ESLint globally then you must also install `eslint-plugin-jest` globally.
 
 ## Usage
 
@@ -24,9 +16,9 @@ Add `jest` to the plugins section of your `.eslintrc` configuration file. You ca
 
 ```json
 {
-    "plugins": [
-        "jest"
-    ]
+  "plugins": [
+    "jest"
+  ]
 }
 ```
 
@@ -35,17 +27,18 @@ Then configure the rules you want to use under the rules section.
 
 ```json
 {
-    "rules": {
-        "jest/rule-name": 2
-    }
+  "rules": {
+    "jest/no-exclusive-tests": 2
+  }
 }
 ```
 
 ## Supported Rules
 
-* Fill in provided rules here
+- [no-exclusive-tests](docs/rules/no-exclusive-tests.md) - disallow exclusive tests.
 
 
+## Credit
 
-
-
+* [eslint-plugin-mocha](https://github.com/lo1tuma/eslint-plugin-mocha)
+* [eslint-plugin-jasmine](https://github.com/tlvince/eslint-plugin-jasmine)
