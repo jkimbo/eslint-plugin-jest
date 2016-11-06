@@ -28,7 +28,8 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
   "rules": {
-    "jest/no-exclusive-tests": 2
+    "jest/no-exclusive-tests": 2,
+    "jest/no-identical-title": 2
   }
 }
 ```
