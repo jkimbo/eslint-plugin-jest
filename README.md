@@ -36,6 +36,7 @@ Then configure the rules you want to use under the rules section.
 ## Supported Rules
 
 - [no-exclusive-tests](docs/rules/no-exclusive-tests.md) - disallow exclusive tests.
+- [no-identical-title](docs/rules/no-identical-title.md) - disallow identical titles.
 
 
 ## Credit
