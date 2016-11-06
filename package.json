@@ -12,9 +12,7 @@
   "scripts": {
     "test": "jest"
   },
-  "dependencies": {
-    "requireindex": "^1.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^3.9.0",
     "eslint-config-airbnb-base": "^9.0.0",
