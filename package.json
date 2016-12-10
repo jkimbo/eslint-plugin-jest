@@ -23,5 +23,9 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jkimbo/eslint-plugin-jest.git"
+  }
 }
