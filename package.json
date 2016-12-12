@@ -10,7 +10,6 @@
   "author": "Jonathan Kim",
   "main": "lib/index.js",
   "scripts": {
-    "preinstall": "if [[ $npm_execpath != *'yarn.js'* ]]; then echo 'ERROR: Use yarn to install dependencies: `npm install -g yarn && yarn` (https://yarnpkg.com)' && exit 1; fi",
     "test": "jest"
   },
   "dependencies": {},
