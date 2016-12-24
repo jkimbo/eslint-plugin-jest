@@ -5,7 +5,7 @@ Eslint plugin for Jest
 ## Installation
 
 ```
-$ yarn install eslint eslint-plugin-jest --dev
+$ yarn add eslint eslint-plugin-jest --dev
 ```
 
 **Note:** If you installed ESLint globally then you must also install `eslint-plugin-jest` globally.
