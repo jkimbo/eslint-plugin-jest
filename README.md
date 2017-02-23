@@ -1,4 +1,6 @@
-# eslint-plugin-jest
+# [DEPRECATED] eslint-plugin-jest
+
+*This project has been merged into the main [jest repo](https://github.com/facebook/jest/tree/master/packages/eslint-plugin-jest). Please raise any issues or features there.*
 
 Eslint plugin for Jest
 
